@@ -1,6 +1,6 @@
 {
   "name": "@xtended402/react",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "React component for x402 payment flows",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
