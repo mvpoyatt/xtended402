@@ -1,12 +1,14 @@
 # xtended402
 
-Focused helpers and a middleware alternative for [x402 v2](https://github.com/coinbase/x402) that solve common real-world patterns.
+Server-side crypto payments for web apps, built on [x402 v2](https://github.com/coinbase/x402).
 
 ## What is this?
 
-[x402 v2](https://github.com/coinbase/x402) is a flexible payment protocol for pay-per-call APIs, content paywalls, and more. xtended402 provides a collection of helpers that address specific x402 limitations when building e-commerce and other applications that need to calculate prices from request body data.
+[x402 v2](https://github.com/coinbase/x402) is a flexible payment protocol for pay-per-call APIs, content paywalls, and more. xtended402 extends x402's signature-based payment pattern for traditional e-commerce. While x402 was designed for API micropayments, this toolkit makes it work for shopping carts, order processing, and human-driven purchases.
 
 **This is a toolbox** Use only what you need: context-based pricing helpers, settlement timing control, or request body preservation. Everything works with standard x402 v2 - no wrappers, just helpers.
+
+**Why server-side payments matter:** Unlike traditional crypto payment solutions that execute transactions client-side (WalletConnect, RainbowKit), x402 enables server-driven payment flows. xtended402 extends this pattern specifically for traditional web-app use cases where you need shopping cart pricing and guaranteed settlement before order processing. This means more robust code, standard REST patterns and no reconciliation headaches.
 
 **Standard x402 v2 pattern:**
 ```go
