@@ -22,6 +22,7 @@ A working e-commerce store that demonstrates:
 
 ```bash
 cd go-gin
+go mod tidy
 go run main.go
 ```
 

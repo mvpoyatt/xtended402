@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.2.9",
-    "@xtended402/react": "file:../../client/react",
+    "@xtended402/react": "^0.1.0",
     "@tanstack/react-query": "^5.90.9",
     "next": "^16.0.8",
     "react": "19.2.0",
